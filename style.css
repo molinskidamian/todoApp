@@ -116,12 +116,26 @@ h2 {
   margin: 30px;
 }
 
+header {
+  padding: 30px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid var(--main-color-border);
+  display: flex;
+  justify-content: center;
+}
+
 main {
   margin: 50px auto;
-  display: flex;
-  /* justify-content: center; */
   width: 1000px;
   /* outline: 1px dashed red; */
+}
+
+main > div {
+  text-align: center;
+  padding: 40px 0;
+  /* outline: 1px dashed red; */
+  border: 1px solid var(--main-color-border);
+  border-radius: var(--main-border-radius);
 }
 
 .list-items {
